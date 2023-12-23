@@ -28,7 +28,7 @@ Le script peut être configuré pour être exécuté automatiquement lors du dé
 
 Après l'installation des commandes sont disponibles directement dans le shell :
 
-`iconsetup` : Permet d'ajouter des icons.
+`iconsetup` : Permet d'ajouter des icons.  
 `iconupdate` : Exécute le script de mise à jour des icônes.
 
 ### Mise à jour des icons au démarrage
