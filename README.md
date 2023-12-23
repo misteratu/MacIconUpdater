@@ -131,7 +131,7 @@ https://macosicons.com/
 
 
 
-Si votre application n'est pas présente dans ce tableau alors il faut trouver le fichier .icns dans `/Applications/VotreApp/Contents/Resources/`
+Si votre application n'est pas présente dans ce tableau alors il faut trouver le fichier `.icns` dans `/Applications/VotreApp/Contents/Resources/`
 
 ### Déinstallation
 
