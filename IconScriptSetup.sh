@@ -146,6 +146,3 @@ while true; do
         * ) echo "Veuillez répondre par y ou n.";;
     esac
 done
-
-
-# #launchctl load -w /Library/LaunchDaemons/com.IconScriptUpdate.plist
