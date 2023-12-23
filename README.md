@@ -50,11 +50,55 @@ Exécutez le script de mise à jour pour appliquer les changements aux icônes d
 ./IconScriptUpdate.sh
 ```
 
-Correspondance des apps avec le nom de leur icons : 
+## Les Icons
 
-| App         |  Nom icon   |
-| ----------- | ----------- |
-| Header      | Title |
-| Paragraph   | First paragraph. <br><br> Second paragraph. |
+### Ou trouver des icons ?
+
+https://macosicons.com/
+
+### Correspondance des apps avec le nom de leur icons : 
+
+| App                   | Nom icon           |
+| --------------------- | ------------------ |
+| Aperçu                |    AppIcon.icns    |
+| App Store             |    AppIcon.icns    |
+| Arduino IDE           |    icon.icns       |
+| Minecraft             |    favicon.icns    |
+| Numbers               |    AppIcon.icns    |
+| BetterDisplay         |    BetterDisplay.icns|
+| Obsidian              |    icon.icns       |
+| Brave Browser         |    app.icns        |
+| OpenEmu               |    OpenEmu.icns    |
+| Dashlane              |    AppIcon.icns    |
+| Pages                 |    AppIcon.icns    |
+| Discord               |    electron.icns   |
+| Prime Video           |    AppIcon.icns    |
+| Eclipse               |    Eclipse.icns    |
+| R                     |    RLogo.icns      |
+| Firefox               |    firefox.icns    |
+| Rectangle             |    AppIcon.icns    |
+| GitHub Desktop        |    electron.icns   |
+| Safari                |    AppIcon.icns    |
+| Goodnotes             |    AppIcon.icns    |
+| Stats                 |    AppIcon.icns    |
+| Hidden Bar            |    AppIcon.icns    |
+| Steam                 |    Steam.icns      |
+| IntelliJ IDEA CE      |    idea.icns       |
+| MATLAB_R2022b         |    MATLAB.icns     |
+| Visual Studio Code    |    Code.icns       |
+| Macs Fan Control      |    MacsFanControl.icns|
+| WhatsApp              |    electron.icns   |
+| Messenger             |    messenger.icns  |
+| Xcode                 |    Xcode.icns      |
+| Microsoft Excel       |    XCEL.icns       |
+| draw.io               |    icon.icns       |
+| Microsoft OneNote     |    OneNote.icns    |
+| iTerm                 |    AppIcon.icns    |
+| Microsoft PowerPoint  |    PPT3.icns       |
+| logioptionsplus       |    electron.icns   |
+| Microsoft Teams classic|   icon.icns        |
+| owncloud              |    owncloud.icns   |
+| Microsoft Word        |    MSWD.icns       |
+
 
 Si votre application n'est pas présente dans ce tableau alors il faut trouver le fichier .icns dans /Applications/VotreApp/Contents/Resources/
