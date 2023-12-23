@@ -28,7 +28,7 @@ while IFS= read -r -d $'\0' app_folder; do
             
             # Copier l'icône dans le dossier de l'application en remplaçant si nécessaire
             app_destination_folder="$applications_folder/$app_name.app/Contents/Resources/"
-            cp -f "$icns_file" "$app_destination_folder"
+            sudo cp -f "$icns_file" "$app_destination_folder"
         else
             echo "Aucun fichier .icns trouvé pour $app_name"
         fi

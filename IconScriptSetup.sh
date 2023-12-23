@@ -31,6 +31,7 @@ if [ ! -f "$icons_folder/IconScriptSetup.sh" ] || [ ! -f "$icons_folder/IconScri
                     echo "IconScriptUpdate.sh existe déjà dans $icons_folder"
                 fi
                 echo 'alias iconsetup="cd /Users/picardarthur/opt/icons && ./IconScriptSetup.sh"' >> ~/.zshrc
+                echo 'alias iconupdate="cd /Users/picardarthur/opt/icons && ./IconScriptUpdate.sh"' >> ~/.zshrc
                 crontab -l | { cat; echo "@reboot /Users/$username/opt/icons/IconScriptUpdate.sh"; } | crontab -
                 break
                 ;;
